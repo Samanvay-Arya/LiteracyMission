@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView5"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:cardCornerRadius="100dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.04"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.25">
+
+                <ImageView
+                    android:id="@+id/volunteer_image_card_design"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/volunteer" />
+            </androidx.cardview.widget.CardView>
+
+            <ImageButton
+                android:id="@+id/volunteer_call_ImageButton_card_design"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?actionBarItemBackground"
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_baseline_call_24"
+                app:layout_constraintBottom_toBottomOf="@+id/volunteer_phone2_card_design"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/volunteer_phone1_card_design"
+                app:layout_constraintTop_toTopOf="@+id/volunteer_phone1_card_design" />
+
+            <TextView
+                android:id="@+id/volunteer_name_card_design"
+                style="@style/TextView_LightTheme"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/cardView5"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.050000012" />
+
+            <TextView
+                android:id="@+id/volunteer_phone1_card_design"
+                style="@style/TextView_LightTheme_h2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="9494949499"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="@+id/volunteer_name_card_design"
+                app:layout_constraintTop_toBottomOf="@+id/volunteer_name_card_design"
+                app:layout_constraintWidth_percent="0.4" />
+
+            <TextView
+                android:id="@+id/volunteer_phone2_card_design"
+                style="@style/TextView_LightTheme_h2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="9494949499"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="@+id/volunteer_name_card_design"
+                app:layout_constraintTop_toBottomOf="@+id/volunteer_phone1_card_design"
+                app:layout_constraintWidth_percent="0.4" />
+
+            <TextView
+                android:id="@+id/volunteer_assigned_student_card_design"
+                style="@style/TextView_LightTheme_h2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Assigned Student"
+                android:singleLine="false"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="@+id/volunteer_name_card_design"
+                app:layout_constraintTop_toBottomOf="@+id/volunteer_phone2_card_design"
+                app:layout_constraintWidth_percent="0.4" />
+
+            <TextView
+                android:id="@+id/volunteer_passout_year_card_design"
+                style="@style/TextView_LightTheme_h2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#FF9800"
+                android:gravity="center"
+                android:text="2024"
+                app:layout_constraintBottom_toBottomOf="@+id/volunteer_assigned_student_card_design"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/volunteer_assigned_student_card_design"
+                app:layout_constraintTop_toTopOf="@+id/volunteer_assigned_student_card_design"
+                app:layout_constraintVertical_bias="0.5"
+                app:layout_constraintWidth_percent="0.2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

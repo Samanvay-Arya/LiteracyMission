@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "123987335492",
+    "project_id": "literacymission-147b3",
+    "storage_bucket": "literacymission-147b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123987335492:android:69248c07063eea1f06df11",
+        "android_client_info": {
+          "package_name": "com.samanvay.literacymission"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123987335492-pj2ldtiav3st2ookphfs88o4ipd7dajm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhAN29gZmnKMXp1k4lsGJn0m1dCe-BS5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123987335492-pj2ldtiav3st2ookphfs88o4ipd7dajm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

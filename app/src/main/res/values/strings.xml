@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LiteracyMission</string>
+    <string name="profile">Profile</string>
+    <string name="preferences">Preferences</string>
+    <string name="my_students">My Students</string>
+    <string name="student_attendance">Student Attendance</string>
+    <string name="logout">LogOut</string>
+    <string name="navigation_open">open</string>
+    <string name="navigation_close">close</string>
+    <string name="register_volunteer">Register Volunteer</string>
+    <string name="register_student">Register Student</string>
+</resources>
